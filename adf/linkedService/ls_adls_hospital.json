@@ -1,0 +1,11 @@
+{
+	"name": "ls_adls_hospital",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://hospitalprojectdatalake.dfs.core.windows.net/"
+		}
+	}
+}

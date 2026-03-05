@@ -1,0 +1,9 @@
+{
+	"name": "adf-hospital-project-mk",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "acac2516-b6e1-47c0-bc18-f45a2e120246",
+		"tenantId": "d583b88f-9383-477e-aaa0-c9cff499093c"
+	}
+}
