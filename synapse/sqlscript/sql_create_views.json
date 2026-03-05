@@ -1,0 +1,17 @@
+{
+	"name": "sql_create_views",
+	"properties": {
+		"content": {
+			"query": "-- Analytics Query 3: Visits by year\nSELECT \n    year,\n    COUNT(*) as total_visits\nFROM vw_fact_patient_visit f\nJOIN vw_dim_date d ON f.date_sk = d.date_sk\nGROUP BY year\nORDER BY year;",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "hospital_gold",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
